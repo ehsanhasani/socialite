@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Socialite\Contracts;
+namespace Ehsanhasani\Socialite\Contracts;
 
 interface User
 {

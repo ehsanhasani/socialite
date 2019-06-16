@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Socialite\Tests\Fixtures;
+namespace Ehsanhasani\Socialite\Tests\Fixtures;
 
-use Laravel\Socialite\One\AbstractProvider;
+use Ehsanhasani\Socialite\One\AbstractProvider;
 
 class OAuthOneTestProviderStub extends AbstractProvider
 {

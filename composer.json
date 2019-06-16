@@ -28,24 +28,24 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\Socialite\\": "src/"
+            "Ehsanhasani\\Socialite\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laravel\\Socialite\\Tests\\": "tests/"
+            "Ehsanhasani\\Socialite\\Tests\\": "tests/"
         }
     },
     "extra": {
         "branch-alias": {
             "dev-master": "3.0-dev"
         },
-        "laravel": {
+        "ehsanhasani": {
             "providers": [
-                "Laravel\\Socialite\\SocialiteServiceProvider"
+                "Ehsanhasani\\Socialite\\SocialiteServiceProvider"
             ],
             "aliases": {
-                "Socialite": "Laravel\\Socialite\\Facades\\Socialite"
+                "Socialite": "Ehsanhasani\\Socialite\\Facades\\Socialite"
             }
         }
     },

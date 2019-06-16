@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Socialite\Contracts;
+namespace Ehsanhasani\Socialite\Contracts;
 
 interface Provider
 {
@@ -14,7 +14,7 @@ interface Provider
     /**
      * Get the User instance for the authenticated user.
      *
-     * @return \Laravel\Socialite\Contracts\User
+     * @return \Ehsanhasani\Socialite\Contracts\User
      */
     public function user();
 }

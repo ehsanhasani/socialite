@@ -1,17 +1,17 @@
 <?php
 
-namespace Laravel\Socialite\Tests;
+namespace Ehsanhasani\Socialite\Tests;
 
 use stdClass;
 use Mockery as m;
 use Illuminate\Http\Request;
 use GuzzleHttp\ClientInterface;
-use Laravel\Socialite\Two\User;
+use Ehsanhasani\Socialite\Two\User;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Contracts\Session\Session;
-use Laravel\Socialite\Tests\Fixtures\FacebookTestProviderStub;
-use Laravel\Socialite\Tests\Fixtures\OAuthTwoTestProviderStub;
+use Ehsanhasani\Socialite\Tests\Fixtures\FacebookTestProviderStub;
+use Ehsanhasani\Socialite\Tests\Fixtures\OAuthTwoTestProviderStub;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse as SymfonyRedirectResponse;
 
@@ -80,7 +80,7 @@ class OAuthTwoTest extends TestCase
     }
 
     /**
-     * @expectedException \Laravel\Socialite\Two\InvalidStateException
+     * @expectedException \Ehsanhasani\Socialite\Two\InvalidStateException
      */
     public function testExceptionIsThrownIfStateIsInvalid()
     {
@@ -92,7 +92,7 @@ class OAuthTwoTest extends TestCase
     }
 
     /**
-     * @expectedException \Laravel\Socialite\Two\InvalidStateException
+     * @expectedException \Ehsanhasani\Socialite\Two\InvalidStateException
      */
     public function testExceptionIsThrownIfStateIsNotSet()
     {

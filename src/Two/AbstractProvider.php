@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Socialite\Two;
+namespace Ehsanhasani\Socialite\Two;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\Arr;
@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use GuzzleHttp\ClientInterface;
 use Illuminate\Http\RedirectResponse;
-use Laravel\Socialite\Contracts\Provider as ProviderContract;
+use Ehsanhasani\Socialite\Contracts\Provider as ProviderContract;
 
 abstract class AbstractProvider implements ProviderContract
 {
@@ -135,7 +135,7 @@ abstract class AbstractProvider implements ProviderContract
      * Map the raw user array to a Socialite User instance.
      *
      * @param  array  $user
-     * @return \Laravel\Socialite\Two\User
+     * @return \Ehsanhasani\Socialite\Two\User
      */
     abstract protected function mapUserToObject(array $user);
 
@@ -225,7 +225,7 @@ abstract class AbstractProvider implements ProviderContract
      * Get a Social User instance from a known access token.
      *
      * @param  string  $token
-     * @return \Laravel\Socialite\Two\User
+     * @return \Ehsanhasani\Socialite\Two\User
      */
     public function userFromToken($token)
     {

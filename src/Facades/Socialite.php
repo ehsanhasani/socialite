@@ -1,12 +1,12 @@
 <?php
 
-namespace Laravel\Socialite\Facades;
+namespace Ehsanhasani\Socialite\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Laravel\Socialite\Contracts\Factory;
+use Ehsanhasani\Socialite\Contracts\Factory;
 
 /**
- * @see \Laravel\Socialite\SocialiteManager
+ * @see \Ehsanhasani\Socialite\SocialiteManager
  */
 class Socialite extends Facade
 {

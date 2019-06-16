@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Socialite\Tests;
+namespace Ehsanhasani\Socialite\Tests;
 
 use Mockery as m;
 use Illuminate\Http\Request;
@@ -9,10 +9,10 @@ use Illuminate\Http\RedirectResponse;
 use League\OAuth1\Client\Server\User;
 use League\OAuth1\Client\Server\Twitter;
 use Illuminate\Contracts\Session\Session;
-use Laravel\Socialite\One\User as SocialiteUser;
+use Ehsanhasani\Socialite\One\User as SocialiteUser;
 use League\OAuth1\Client\Credentials\TokenCredentials;
 use League\OAuth1\Client\Credentials\TemporaryCredentials;
-use Laravel\Socialite\Tests\Fixtures\OAuthOneTestProviderStub;
+use Ehsanhasani\Socialite\Tests\Fixtures\OAuthOneTestProviderStub;
 use Symfony\Component\HttpFoundation\RedirectResponse as SymfonyRedirectResponse;
 
 class OAuthOneTest extends TestCase

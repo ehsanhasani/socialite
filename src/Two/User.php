@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Socialite\Two;
+namespace Ehsanhasani\Socialite\Two;
 
-use Laravel\Socialite\AbstractUser;
+use Ehsanhasani\Socialite\AbstractUser;
 
 class User extends AbstractUser
 {
